@@ -55,19 +55,19 @@
     row-gap: 40px;
 }
 
-@media (max-width: 910px) {
+@media (max-width: 1000px) {
     .video-grid {
         grid-template-columns: 1fr 1fr;
     }
 }
 
-@media (min-width:910px) and (max-width: 1310px) {
+@media (min-width: 1000px) and (max-width: 1400px) {
     .video-grid {
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
-@media (min-width: 1310px) {
+@media (min-width: 1400px) {
     .video-grid {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
